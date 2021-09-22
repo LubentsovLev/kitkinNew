@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+.gc-payment-method-card {
+  button {
+    display: block !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 60px !important;
+    padding: 0 30px !important;
+    background: linear-gradient(
+      260.61deg,
+      #2ea5dc 5.32%,
+      #7d519e 135.68%
+    ) !important;
+    box-shadow: 0px 10px 30px rgba(46, 165, 220, 0.15) !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: 0.02em !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    span {
+      &::before {
+        display: none !important;
+      }
+    }
+  }
+}
+.main-page-block {
+  padding-bottom: 0px;
+}
+
+.custom-summary {
+  background: #def2ff;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0 !important;
+  .xdget-row {
+    display: flex;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #2a2447;
+  }
+  .position-actual-title {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 50px;
+    color: #2a2447;
+  }
+  .small {
+    max-width: 329px;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    color: #878787;
+    margin-bottom: 20px;
+  }
+  .deal-finish-price-title {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2a2447;
+    margin-bottom: 10px;
+  }
+  a {
+    font-size: 16px;
+    line-height: 22px;
+    color: #22b0e7;
+  }
+  .deal-position-price {
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2447;
+  }
+  .xdget-visible-to-bg-users {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2a2447;
+  }
+  .page-header h1 {
+  }
+}
+.timer {
+  border: none !important;
+  background: #f5f5f5 !important;
+  border-radius: 10px;
+  padding: 40px !important;
+  margin-bottom: 60px;
+  &-header {
+    display: block;
+    margin: 0;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2a2447;
+    margin-bottom: 20px;
+  }
+  &-description {
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2447;
+    margin-bottom: 20px;
+  }
+  &-notification {
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2447;
+    margin-bottom: 10px;
+  }
+  .is-countdown {
+    display: block;
+    margin: 0;
+    font-size: 40px;
+    line-height: 54px;
+    color: #22b0e7;
+  }
+}
+
+// ggg
+// ggg
+// ggg
+// ggg
+// ggg
+// ggg
+// ggg
+// ggg
+// ggg
+// ggg
+body {
+  background-color: #def2ff;
+  font-family: 'Noto Sans' !important;
+}
+.gc-main-content.with-left-menu {
+  margin-left: 0 !important;
+}
+
+.gc-main-content.with-left-menu .container {
+  margin: 40px auto 30px !important;
+}
+
+#clock {
+  border: none;
+  background: transparent;
+  font-size: 40px;
+  line-height: 54px;
+  color: #22b0e7;
+  font-weight: bold;
+}
+
+.container {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 60px 40px 0;
+}
+
+.page-header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 54px;
+  color: #2a2447;
+}
+
+.custom-logo {
+  width: 187px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.custom-header-image {
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.content-menu {
+  display: none;
+}
+
+// .timer {
+//   margin-bottom: 60px;
+//   background-color: #f5f5f5;
+//   border-radius: 10px;
+//   padding: 30px;
+// }
+
+// .timer-header {
+//   font-size: 22px;
+//   line-height: 30px;
+//   letter-spacing: 0.02em;
+//   text-transform: uppercase;
+// }
+
+// .timer-description {
+//   font-size: 18px;
+//   margin: 20px 0;
+// }
+
+// .timer-notification {
+//   font-size: 16px;
+//   line-height: 16px;
+// }
+
+.custom-footer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-footer__left {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.custom-footer__right {
+  padding-left: 30px;
+}
+
+.custom-footer__right b {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.custom-footer__right p {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 375px;
+}
+
+.xdget-visible-to-bg-users {
+  background-image: none !important;
+}
+
+.custom-summary {
+  background-color: #def2ff;
+  padding: 40px;
+}
+
+.custom-summary-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-partial-payment {
+  margin-top: 26px;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  flex-direction: row-reverse;
+  a {
+    background: linear-gradient(
+      260.61deg,
+      #2ea5dc 5.32%,
+      #7d519e 135.68%
+    ) !important;
+    box-shadow: 0px 10px 30px rgba(46, 165, 220, 0.15);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    height: 60px;
+    color: #ffffff !important;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
+
+.custom-partial-payment span {
+  color: #22b0e7 !important;
+  font-size: 16px;
+}
+
+.custom-page .btn:not(.global-edit-btn) {
+  float: none !important;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px 25px 17px;
+  border-radius: 10px;
+  background: #6fb6e7 !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#6fb6e7),
+    to(#3d80dc)
+  ) !important;
+  background: -o-linear-gradient(top, #6fb6e7 0%, #3d80dc 100%) !important;
+  background: linear-gradient(to bottom, #6fb6e7 0%, #3d80dc 100%) !important;
+  border: none !important;
+  transition: box-shadow 140ms ease-out;
+
+  box-shadow: 0 3px 0 0 #0f448c;
+  margin-left: auto;
+}
+
+.custom-page .btn:not(.global-edit-btn):hover {
+  box-shadow: 0 3px 0 0 #3d80dc;
+}
+
+.custom-payments .gc-payment-method-card > div:only-child {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px 40px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.custom-payments .gc-payment-method-card table,
+.custom-payments .YaKassa_yandex_money table {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.custom-payments
+  .gc-payment-method-card
+  > div:only-child
+  > table:only-child
+  tr:only-child
+  > td:first-of-type,
+.custom-payments #YaKassa_yandex_money table tr > td:first-of-type,
+.custom-payments #robokassa table tr > td:first-of-type {
+  width: 100% !important;
+  vertical-align: middle;
+}
+
+.custom-payments
+  .gc-payment-method-card
+  > div:only-child
+  > table:only-child
+  tr:only-child
+  > td:first-of-type
+  img {
+  max-width: 200px;
+}
+
+.custom-payments #YaKassa_yandex_money table tr > td:first-of-type img,
+.custom-payments #robokassa table tr > td:first-of-type img {
+  max-width: 80px;
+  margin-top: 0 !important;
+}
+
+.custom-payments #YaKassa_yandex_money table tr > td:last-of-type,
+.custom-payments #robokassa table tr > td:last-of-type {
+  padding-right: 31px;
+  padding-bottom: 20px;
+}
+
+.custom-payments h3,
+.custom-payments #YaKassa_yandex_money table tr > td:last-of-type > div > div,
+.custom-payments #robokassa table tr > td:last-of-type > div {
+  display: none !important;
+}
+
+.custom-payments #robokassa table tr > td:last-of-type > button {
+  margin-top: 0px !important;
+}
+
+.custom-payments #YaKassa_yandex_money table tr > td,
+.custom-payments #robokassa table tr > td {
+  border-top: none;
+  border-bottom: 1px solid #d7ecf4;
+}
+
+.custom-page .btn:not(.global-edit-btn) .glyphicon {
+  display: none;
+}
+
+.custom-payments-image {
+  margin-left: 10px;
+}
+
+.payment-method-header,
+.custom-payments-heading {
+  font-weight: normal;
+  display: block;
+  margin-top: 55px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 3px dashed #a8d7e9;
+  width: 100%;
+}
+
+.custom-payments-heading {
+  text-transform: none;
+  margin-top: 30px;
+}
+
+@media all and (max-width: 768px) {
+  .custom-partial-payment a {
+    margin-top: 30px;
+  }
+  .gc-payment-method-card {
+    button {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+  .custom-summary,
+  .timer {
+    padding: 20px;
+  }
+  .container {
+    padding: 40px 20px 0;
+  }
+  .custom-footer {
+    margin-top: 0;
+  }
+
+  .custom-footer__right {
+    padding-top: 30px;
+  }
+
+  .custom-footer__left {
+    margin-top: 30px;
+  }
+
+  .custom-footer,
+  .custom-partial-payment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .custom-partial-payment span {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .custom-payments .gc-payment-method-card tr,
+  .custom-payments .gc-payment-method-card td {
+    display: block;
+    text-align: center;
+  }
+
+  .custom-page .btn:not(.global-edit-btn) {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .custom-payments #YaKassa_yandex_money table tr > td:last-of-type,
+  .custom-payments #robokassa table tr > td:last-of-type {
+    padding-right: 0;
+  }
+}
+
+new new new body {
+  background-color: #ddecf0;
+}
+
+.gc-main-content.with-left-menu {
+  margin-left: 0 !important;
+}
+
+.gc-main-content.with-left-menu .container {
+  margin: 40px auto 30px !important;
+}
+
+#clock {
+  border: none;
+  background: transparent;
+  font-size: 40px;
+  line-height: 40px;
+  color: #51adff;
+  font-weight: bold;
+}
+
+.container {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 60px 40px 0;
+}
+
+.page-header h1 {
+  margin-right: 0 !important;
+}
+
+.custom-logo {
+  width: 187px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.custom-header-image {
+  margin-bottom: 30px;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.content-menu {
+  display: none;
+}
+
+// .timer {
+//   margin-bottom: 55px;
+//   background-color: #f9faf3;
+//   border: 1px dashed #dcc97f;
+//   padding: 30px;
+// }
+
+// .timer-header {
+//   font-size: 22px;
+//   font-weight: bold;
+//   text-transform: uppercase;
+// }
+
+// .timer-description {
+//   font-size: 18px;
+//   margin: 20px 0;
+// }
+
+// .timer-notification {
+//   font-size: 16px;
+//   line-height: 16px;
+// }
+
+.custom-footer {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.custom-footer__left {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.custom-footer__right {
+  padding-top: 127px;
+  padding-left: 30px;
+}
+
+.custom-footer__right b {
+  font-size: 22px;
+}
+
+.custom-footer__right p {
+  margin: 15px 0 0;
+  font-size: 18px;
+  max-width: 385px;
+}
+
+.xdget-visible-to-bg-users {
+  background-image: none !important;
+}
+
+.custom-summary-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.custom-partial-payment {
+  margin-top: 10px;
+  padding: 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.custom-page .btn:not(.global-edit-btn) {
+  float: none !important;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px 25px 17px;
+  border-radius: 10px;
+  background: #6fb6e7 !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#6fb6e7),
+    to(#3d80dc)
+  ) !important;
+  background: -o-linear-gradient(top, #6fb6e7 0%, #3d80dc 100%) !important;
+  background: linear-gradient(to bottom, #6fb6e7 0%, #3d80dc 100%) !important;
+  border: none !important;
+  transition: box-shadow 140ms ease-out;
+
+  box-shadow: 0 3px 0 0 #0f448c;
+  margin-left: auto;
+}
+
+.custom-page .btn:not(.global-edit-btn):hover {
+  box-shadow: 0 3px 0 0 #3d80dc;
+}
+
+.custom-payments .gc-payment-method-card > div:only-child {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px 40px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.custom-payments .gc-payment-method-card table,
+.custom-payments .YaKassa_yandex_money table {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.custom-payments
+  .gc-payment-method-card
+  > div:only-child
+  > table:only-child
+  tr:only-child
+  > td:first-of-type,
+.custom-payments #YaKassa_yandex_money table tr > td:first-of-type,
+.custom-payments #robokassa table tr > td:first-of-type {
+  width: 100% !important;
+  vertical-align: middle;
+}
+
+.custom-payments
+  .gc-payment-method-card
+  > div:only-child
+  > table:only-child
+  tr:only-child
+  > td:first-of-type
+  img {
+  max-width: 200px;
+}
+
+.custom-payments #YaKassa_yandex_money table tr > td:first-of-type img,
+.custom-payments #robokassa table tr > td:first-of-type img {
+  max-width: 80px;
+  margin-top: 0 !important;
+}
+
+.custom-payments #YaKassa_yandex_money table tr > td:last-of-type,
+.custom-payments #robokassa table tr > td:last-of-type {
+  padding-right: 31px;
+  padding-bottom: 20px;
+}
+
+.custom-payments h3,
+.custom-payments #YaKassa_yandex_money table tr > td:last-of-type > div > div,
+.custom-payments #robokassa table tr > td:last-of-type > div {
+  display: none !important;
+}
+
+.custom-payments #robokassa table tr > td:last-of-type > button {
+  margin-top: 0px !important;
+}
+
+.custom-payments #YaKassa_yandex_money table tr > td,
+.custom-payments #robokassa table tr > td {
+  border-top: none;
+  border-bottom: 1px solid #d7ecf4;
+}
+
+.custom-page .btn:not(.global-edit-btn) .glyphicon {
+  display: none;
+}
+
+.custom-partial-payment span {
+  color: #22b0e7 !important;
+  font-size: 16px;
+}
+
+.custom-payments-image {
+  margin-left: 10px;
+}
+
+.payment-method-header,
+.custom-payments-heading {
+  margin-top: 50px;
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 3px dashed #a8d7e9;
+  width: 100%;
+}
+
+.custom-payments-heading {
+  text-transform: none;
+  margin-top: 30px;
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    padding: 40px 20px 0;
+  }
+  .custom-footer {
+    margin-top: 0;
+  }
+
+  .custom-footer__right {
+    padding-top: 30px;
+  }
+
+  .custom-footer__left {
+    margin-top: 30px;
+  }
+
+  .custom-footer,
+  .custom-partial-payment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .custom-partial-payment span {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .custom-payments .gc-payment-method-card tr,
+  .custom-payments .gc-payment-method-card td {
+    display: block;
+    text-align: center;
+  }
+
+  .custom-page .btn:not(.global-edit-btn) {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .custom-payments #YaKassa_yandex_money table tr > td:last-of-type,
+  .custom-payments #robokassa table tr > td:last-of-type {
+    padding-right: 0;
+  }
+}
